@@ -12,7 +12,8 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://whatsapp-jacob.netlify.app/*, https://whatsapp-jacob.herokuapp.com/",
+    origin:
+      "https://whatsapp-jacob.netlify.app/*, https://whatsapp-jacob.herokuapp.com/",
   },
 });
 
