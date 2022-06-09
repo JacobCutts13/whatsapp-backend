@@ -40,8 +40,9 @@ io.on("connection", (socket) => {
     }
   );
 });
+const PORT_NUMBER = process.env.PORT ?? 5000;
 
-server.listen(5000, () => {
+server.listen(PORT_NUMBER, () => {
   console.log("listening on port 5000");
 });
 
